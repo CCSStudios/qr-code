@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "@antfu"
+  ],
+  "ignorePatterns": [
+    ".nuxt",
+    "dist",
+    "node_modules",
+    "scripts"
+  ],
+  "rules": {
+    "antfu/top-level-function": "off",
+    "vue/max-attributes-per-line": [
+        "error",
+        {
+            "singleline": {
+                "max": 1
+            },
+            "multiline": {
+                "max": 1
+            }
+        }
+    ]
+  }
+}

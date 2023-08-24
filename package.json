@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.41.0",
+    "@nuxt/devtools": "latest",
+    "@types/node": "^18.17.3",
+    "@types/qrcode": "^1.5.1",
+    "eslint": "^8.47.0",
+    "nuxt": "^3.6.5"
+  },
+  "dependencies": {
+    "h3-zod": "^0.5.1",
+    "qrcode": "^1.5.3",
+    "zod": "^3.22.2"
+  }
+}

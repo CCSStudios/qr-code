@@ -1,0 +1,1 @@
+export interface QrPostResponse { url: string, code: string }
