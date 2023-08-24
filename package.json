@@ -1,6 +1,14 @@
 {
-  "name": "nuxt-app",
-  "private": true,
+  "name": "@ccsstudios/qr-code",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ccsstudios/qr-code.git"
+  },
+  "author": {
+    "name": "CCS Studios",
+    "email": "chris@saganic.co.uk"
+  },
+  "private": false,
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
